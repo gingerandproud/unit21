@@ -1,0 +1,64 @@
+/* Title & Font */
+.bebas-neue-regular {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 1500;
+  font-style: normal;
+}
+.title {
+	text-align: center;
+	font-size: 250%;
+}
+.h4 {
+	font-size: 150%;
+}
+/* input and buttons for login */
+input {
+	color: white;
+	font-size: 125%;
+}
+button {
+	color: white;
+	font-size: 125%;
+	background-color: lightgray;
+	border: 2px solid gray;
+}
+.fgtpword {
+	font-size: 85%;
+	font-weight: 500;
+}
+.login-grid div {
+text-align: center;
+}
+.fgtpword-grid div {
+text-align: center;
+}
+.signup-grid {
+	text-align: center;
+}.languages-grid {
+	text-align: center;
+}
+.signup-button-grid {
+	text-align: center;
+}
+.logo-grid div {
+	text-align: center;
+}
+.payment-info-grid div{
+	text-align: center;
+}
+.navigation-buttons-grid div {
+	text-align: center;
+}
+.header-grid div button {
+	float: right;
+}
+.back-next-grid #left{
+	float: left;
+}
+.back-next-grid #right{
+	float: right;
+}
+.right {
+	text-align: center;
+	font-size: 125%;
+}

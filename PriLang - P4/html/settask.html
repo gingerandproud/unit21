@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>PriLang - Set Task </title>
+	<link rel="icon" type="image/x-icon" href="../img/monkeylogo.ico">
+	<!-- CSS files -->
+	<link rel="stylesheet" type="text/css" href="../css/resetsheet.css">
+	<link rel="stylesheet" type="text/css" href="../css/text.css">
+	<link rel="stylesheet" type="text/css" href="../css/general.css">
+	<link rel="stylesheet" type="text/css" href="../css/backgrounds.css">
+	<link rel="stylesheet" type="text/css" href="../css/grids.css">
+	<!-- Google font connections -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+	<!-- JS scripts -->
+	<script src="../js/prilang.js"></script>
+</head>
+<div class="header-container">
+	<div class="header-grid">
+		<div></div>
+		<div>
+			<h1 class="title bebas-neue-regular"> Set Task </h1>
+		</div>
+		<div>
+			<button type="button" onclick="javascript:logout('index.html')" target="_self">Logout</button>
+	</div>
+</div>
+<header onLoad="MM_preloadImages('../img/monkeylogowithbanana.png')">
+<div class="logo-container">
+	<div class="logo-grid">
+		  <div></div>
+		  <div>
+			<a onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('monkeylogowithbanana','','../img/monkeylogowithbanana.png',1)"><img src="../img/monkeylogo.png" alt="Logo images that rollover to a monkey with a banana" width="145" height="223" id="monkeylogowithbanana"></a> 
+		  </div>
+		  <div></div>
+	</div>
+</div>
+</header>
+<body>
+	<div class="languages-grid">
+			<!-- Beginning of row -->
+			<div></div>	
+			<div>
+			<hi class="title bebas-neue-regular">Language to be learnt</hi>
+			</div>
+			<div></div>
+			<!-- End of row -->
+			<!-- Beginning of row -->
+			<div></div>	
+			<div class="languages-child ">
+				<div></div>	
+				<div>
+					<input type="checkbox" name="LanguageSelector" value="checkbox" id="LanguageSelector_0">
+				</div>
+				<div>
+					<label>Quiz</label>
+				</div>	
+				<div></div>	
+				<div></div>
+				<div>
+					<input type="checkbox" name="LanguageSelector" value="checkbox" id="LanguageSelector_1">
+				</div>
+				<div>
+					<label>Learn</label>
+				</div>	
+				<div></div>
+				<div></div>
+				<div>
+					<input type="checkbox" name="LanguageSelector" value="checkbox" id="LanguageSelector_2">
+				</div>
+				<div>
+					<label>Games</label>
+				</div>
+				<div></div>	
+			</div>
+			<div></div>
+			<div></div>
+			<div class="languages-child">
+				<div></div>
+				<div>
+					<input type="checkbox" name="LanguageSelector" value="checkbox" id="LanguageSelector_0">
+				</div>
+				<div>
+					<label>Class 1</label>
+				</div>	
+				<div></div>	
+				<div></div>
+				<div>
+					<input type="checkbox" name="LanguageSelector" value="checkbox" id="LanguageSelector_1">
+				</div>
+				<div>
+					<label>Class 2</label>
+				</div>
+			</div>
+			<div></div>
+			<!-- End of row -->
+		</div>
+		<br>
+		<div class="signup-button-grid">
+			<div></div>
+			<div>
+				<button type="button" class="btn btn-lg  " onClick="javascript:settask()">Set Tasks</button>
+			</div>
+		</div>
+	</div>
+</body>
+<footer>
+	<div class="fixbottom">
+		<div class="back-next-grid">
+			<div>
+				<button id="left" type="button" onclick="javascript:back('../php/teacherindex.php')" target="_self">Back</button>
+			</div>
+			<div></div>
+		</div>
+	</div>
+</footer>
+</html>

@@ -1,0 +1,58 @@
+input {
+	background-color: black;
+	border: 2px solid red;
+	width: 100%;
+}
+button {
+	width: 100%;
+}
+.fixbottom {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	left: 0;
+}
+.fixbottom img {
+	display: block;
+	margin: auto;	
+	line: center;
+}
+.payment-webpage-grid img {
+	height: 100%;
+	width: 100%;
+}
+.bgcolour {
+	background-color: lightblue;
+	width: 100%;
+}
+.back-next-grid div button {
+	width: 25%;
+}
+.gray-bg {
+	background-color: gray;
+}
+.test-buttons-grid {
+	text-align: center;
+}
+.list {
+	text-align: center;
+	list-style-type: none;
+}
+.students-container div table {
+	text-align: center;
+	width: 100%;
+}
+.students-buttons div button {
+	width: 100%;
+}
+.centerimage {
+	display: block;
+	margin: auto;	
+	line: center;
+}
+.test-buttons-grid button {
+	width: 100%;
+}
+.fgt-page button {
+	width: 100%;
+}

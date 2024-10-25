@@ -1,0 +1,122 @@
+.logo-container {
+	display: grid;
+	grid-template-columns: 100%;
+} 
+.logo-grid {
+	display: grid;
+	grid-template-columns: 33.3% 33.3% 33.3%;
+}
+.login-container {
+	display: grid;
+	grid-template-columns: 100%;
+	grid-row-gap: 10px;
+}
+.login-grid {
+	display: grid;
+	grid-template-columns: 40% 20% 40%;
+	grid-row-gap: 15px;
+}
+.fgtpword-container {
+	display: grid;
+	grid-template-columns: 100%;
+}
+.fgtpword-grid {
+	display: grid;
+	grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+}
+.signup-container {
+	display: grid;
+	grid-template-columns: 100%;
+}
+.signup-grid {
+	display: grid;
+	grid-template-columns: 35% 30% 35%;
+	grid-row-gap: 10px;
+}
+.languages-grid {
+	display: grid;
+	grid-template-columns: 35% 30% 35%;
+	grid-row-gap: 15px;
+}
+.languages-child {
+	display: grid;
+	grid-template-columns: 40% 10% 10% 40%;
+}
+.signup-button-grid {
+	display: grid;
+	grid-template-columns: 40% 20% 40%;
+	grid-row-gap: 10px;
+}
+.payment-info-container {
+	display: grid;
+	grid-template-columns: 100%;
+}
+.payment-info-grid {
+	display: grid;
+	grid-template-columns: 35% 30% 35%;
+	grid-row-gap: 10px;
+}
+.payment-webpage-container {
+	display: grid;
+	grid-template-columns: 100%;
+}
+.payment-webpage-grid {
+	display: grid;
+	grid-template-columns: 10% 10% 10% 9% 10% 10% 11% 10% 10%;
+	grid-row-gap: 5px;
+	grid-column-gap: 5px;
+}
+.navigation-buttons-container {
+	display: grid;
+	grid-template-columns: 100%;
+}
+.navigation-buttons-grid {
+	display: grid;
+	grid-template-columns: 30% 20% 10% 40%;
+	grid-row-gap: 35px;
+}
+.header-container {
+	display: grid;
+	grid-template-columns: 100%;
+}
+.header-grid {
+	display: grid;
+	grid-template-columns: 20% 60% 20%;
+}
+.learn-grid {
+	display: grid;
+	grid-template-columns: 37.5% 25% 37.5%;
+	align-content: center;
+}
+.recording-grid {
+	display: grid;
+	grid-template-columns: 35% 10% 10% 10% 35%;
+	grid-row-gap: 5px;
+}
+.back-next-grid {
+	display: grid;
+	grid-template-columns: 50% 50%;
+}
+.test-buttons-grid {
+	display: grid;
+	grid-template-columns: 40% 10% 10% 40%;
+	grid-row-gap: 10px;
+	grid-column-gap: 3px;
+}
+.games-container {
+	display: grid;
+	grid-template-columns: 40% 20% 40%;
+	grid-template-rows: 150px;
+}
+.students-container {
+	display: grid;
+	grid-template-columns: 40% 20% 40%;
+}
+.students-buttons {
+	display: grid;
+	grid-template-columns: 40% 20% 40%;
+}
+.forgot-page {
+	display: grid;
+	grid-template-columns: 33.3% 33.3% 33.3%;
+}

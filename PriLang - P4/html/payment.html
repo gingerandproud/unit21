@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>PriLang - Payments</title>
+	<link rel="icon" type="image/x-icon" href="../img/monkeylogo.ico">
+	<!-- CSS files -->
+	<link rel="stylesheet" type="text/css" href="../css/resetsheet.css">
+	<link rel="stylesheet" type="text/css" href="../css/text.css">
+	<link rel="stylesheet" type="text/css" href="../css/general.css">
+	<link rel="stylesheet" type="text/css" href="../css/backgrounds.css">
+	<link rel="stylesheet" type="text/css" href="../css/grids.css">
+	<!-- Google font connections -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+	<!-- JS scripts -->
+	<script src="../js/prilang.js"></script>
+</head>
+<h1 class="title bebas-neue-regular"> Payments </h1>
+<header onLoad="MM_preloadImages('../img/monkeylogowithbanana.png')">
+<div class="logo-container">
+	<div class="logo-grid">
+		  <div></div>
+		  <div>
+			<a onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('monkeylogowithbanana','','../img/monkeylogowithbanana.png',1)"><img src="../img/monkeylogo.png" alt="Logo images that rollover to a monkey with a banana" width="145" height="223" id="monkeylogowithbanana"></a> 
+		  </div>
+		  <div></div>
+	</div>
+</div>
+</header>
+<body>
+	<div class="payment-info-container">
+		<div class="payment-info-grid">
+			<div></div>
+			<div>
+				<input type="text" name="cardnum" placeholder="Card Number" color="white">
+			</div>
+			<div></div>
+			<div></div>
+			<div>
+				<input type="text" name="nameoncard" placeholder="Name On Card" color="white">
+			</div>
+			<div></div>
+			<div></div>
+			<div>
+				<input type="password" name="securenum" placeholder="CVC/CVV" color="white">
+			</div>
+			<div></div>
+			<div></div>
+			<div>
+				<input type="password" name="month" placeholder="Month" color="white">
+			</div>
+			<div></div>
+			<div></div>
+			<div>
+				<input type="text" name="year" placeholder="Year" color="white">
+			</div>
+		</div>
+	</div>
+	<br>
+	<h1 class="title bebas-neue-regular"> You may also use one of these options </h1>
+	<div class="payment-webpage-container">
+		<div class="payment-webpage-grid">
+			<div></div>	
+			<div></div>	
+			<div></div>	
+			<div></div>	
+			<div>
+				<a href="https://www.apple.com/uk/apple-pay/"><img src="../img/applepay.png" alt="Apple Pay Logo that is clickable" ></a>
+			</div>
+			<div>
+				<a href="https://pay.google.com/about/"><img src="../img/googlepay.png" alt="Google Pay logo that is clickable"></a>
+			</div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div>
+				<a href="https://www.paypal.com/uk/home"><img src="../img/paypal.png" alt="Paypal logo that is clickable"></a>
+			</div>
+			<div>
+				<a href="https://www.mastercard.co.uk/en-gb.html"><img src="../img/mastercard.png" alt="Mastercard logo that is clickable"></a>
+			</div>
+			<div></div>
+			<div></div>
+			<div></div>
+		</div>
+	</div>
+	<br>
+	<div class="signup-button-grid">
+			<div></div>
+			<div>
+				<button type="button" class="btn btn-lg  " onClick="javascript:Payment('../php/login.php')" target="_self">Complete Payment</button>
+			</div>
+			<div></div>
+			<div></div>
+			<div>
+				<button type="button" class="btn btn-lg  " onClick="javascript:Return('../php/signup.php')" target="_self">Return</button>
+			</div>
+			<div></div>
+		</div>
+</body>
+</html>
